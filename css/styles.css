@@ -1,0 +1,171 @@
+
+body{
+  font-family: 'Montserrat';
+}
+h1{
+  line-height: 1.5;
+  font-size: 55px;
+}
+h2{
+  font-size: 40px;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat' ;
+
+}
+#title{
+  background-color: #ff4c68;
+  color: white;
+
+}
+#features{
+  padding:6% 20%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color:#ef8172;
+  color: #fff;
+}
+
+#press{
+  background-color:#ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+#pricing{
+  padding:100px;
+  text-align: center;
+  padding-bottom: 30px;
+
+}
+#cta{
+  padding: 150px 250px;
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+}
+#footer{
+  text-align: center;
+  padding: 30px 100px;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.icon{
+  padding:5px 5px 8px 5px;
+}
+.navbar{
+  padding-left: 0;
+  padding-bottom: 60px;
+}
+.navbar-brand{
+  font-family: 'ubuntu';
+  font-size: 40px;
+  font-weight: bold;
+  margin-right: 50px;
+}
+.content{
+  padding: 2% 0;
+}
+.content1{
+  text-align: center;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-family: 'ubuntu';
+  font-weight: bold;
+}
+.btn{
+  margin: 2% 1% 2% 0;
+}
+.tittle-img{
+  width: 50%;
+  right: 25%%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+.box{
+  text-align: center;
+
+}
+.box p{
+  font-size: 90%;
+  padding: 10px;
+  margin: 0;
+  font-family: 'ubuntu';
+  font-weight: bold;
+}
+.box h3{
+  font-size: 130%;
+  padding: 10px;
+  margin: 0;
+  font-family: 'ubuntu';
+  font-weight: bold;
+
+}
+.box i{
+  color: #ef8172;
+  padding: 20px;
+}
+.box i:hover{
+  color: #ff4c68;
+}
+
+
+.t-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press-img{
+  width: 12%;
+  margin: 20px 20px 20px 50px;
+}
+.carousel-item{
+  padding: 7% 15%;
+
+}
+.card-btn{
+  font-weight: bold;
+}
+.card{
+  font-family: 'ubuntu';
+  font-weight: bold;
+}
+.p-col{
+  padding: 3% 2%;
+}
+
+#cta h3{
+  font-size: 35px;
+}
+
+#footer p{
+  color: grey;
+  font-family: 'ubuntu';
+  font-weight: bold;
+  font-size:10px;
+}
+@media (max-width:1130px) {
+  .tittle-img{
+    position: static;
+    width: 70%;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+  #cta{
+    padding: 100px 140px;
+  }
+}
