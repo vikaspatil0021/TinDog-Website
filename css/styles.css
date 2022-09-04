@@ -156,6 +156,15 @@ h1,h2,h3,h4,h5,h6{
   font-weight: bold;
   font-size:10px;
 }
+
+.git{
+  color: aqua;
+}
+
+.fix{
+  position;fixed; 
+}
+  
 @media (max-width:1130px) {
   .tittle-img{
     position: static;
